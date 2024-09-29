@@ -24,7 +24,7 @@ function Home() {
     return (
         <>
 
-            <img src="https://img.freepik.com/free-photo/flay-lay-beautiful-crown-concept_23-2148693214.jpg" className='home-head-background-img' />
+            <img src="https://img.freepik.com/free-vector/orange-blue-background-list_23-2149020601.jpg" className='home-head-background-img' />
 
             <div className='home-heading-division'>
                 <h1 className='text-center text-primary app-title' >📘 Quick Note</h1>

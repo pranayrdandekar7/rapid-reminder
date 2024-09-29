@@ -6,16 +6,16 @@ import { Link } from 'react-router-dom'
 
 const Features = [
     {
-        featureImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ije-okIMdPLWgNrCrhNo57v7I--sJ8WECQ&s",
+        featureImg: "https://img.freepik.com/free-vector/cyber-security-concept_23-2148532223.jpg",
         featureText: "Notes will be saved securely in your browsers local storage"
     },
 
     {
-        featureImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgvwJwpdYbRSQJbn9HECjEBSZuK1oSeQ3Owg&s",
+        featureImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1d-6vBf7RvcRaGND6qrF_yC6toH5ICgXDEA&s",
         featureText: "Use your brain for thinking , not for remembering things"
     },
     {
-        featureImg: "https://appinventiv.com/wp-content/uploads/2016/08/How-Mobile-Apps-Have-Brought-a-Revolution-in-our-Daily-Lives.png",
+        featureImg: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7o_iM09BEOOcLkLW4v5kPvReF4qcqQJFNww&s",
         featureText: "Loved by 100 + users. feedbacks are always welcome!"
     }
 ]
@@ -24,7 +24,7 @@ function Home() {
     return (
         <>
 
-            <img src="https://img.freepik.com/free-vector/orange-blue-background-list_23-2149020601.jpg" className='home-head-background-img' />
+            <img src="https://img.freepik.com/free-photo/flat-lay-concept-clipboard_23-2148102704.jpg" className='home-head-background-img' />
 
             <div className='home-heading-division'>
                 <h1 className='text-center text-primary app-title' >📘 Quick Note</h1>

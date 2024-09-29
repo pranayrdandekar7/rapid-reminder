@@ -5,13 +5,13 @@
 }
 
 .app-title{
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 0;
    
 }
 
 .subheading{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .buttons-container{
@@ -20,19 +20,22 @@
 }
 
 .home-heading-division{
-  width: 20%;
-  height: 20%;
-  padding: 10px;
+  width: 35%;
+  height: 30%;
   display: block;
   margin: 0 auto;
   border-radius: 10px;
   position: absolute;
   top: 140px;
-  right: 260px;
+  right: 290px;
 }
 
 .add-note-butn:hover{
     background-color: #ff99c2;
+}
+
+.why-should-heading{
+    font-size: 30px;
 }
 
 @media screen and (max-width:500px){

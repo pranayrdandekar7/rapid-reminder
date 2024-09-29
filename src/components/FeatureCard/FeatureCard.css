@@ -7,23 +7,26 @@
 }
 
 .feature-card{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.651);
     width: 260px;
     padding: 15px;
     border-radius: 10px;
-    box-shadow: 0 0 10px #BED1CF;
+    box-shadow: 0 0 10px #a6b9b7;
     cursor: pointer;
 
 }
 
 .feature-img{
-    height: 70px;
+    height: 60%;
+    width: 90%;
     display: block;
     margin: 20px auto;
+    border-radius: 10px;
 }
 
 .feature-text{
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 /* 

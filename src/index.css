@@ -1,13 +1,76 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* .page-background-img{
+  background-image: url('./assets/back-img.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  min-height: 84vh;
+  padding: 40px;
+} */
+
+.text-center{
+  text-align: center;
 }
+
+.text-primary{
+  color: #ff3385;
+}
+
+.text-white{
+  background-color: white;
+}
+.text-secondary{
+  color: #9DBDFF;
+}
+
+.text-highlight{
+  background-color: #F3D7CA;
+}
+
+.text-grey{
+  color: grey;
+}
+
+.text-black{
+  color: black;
+}
+
+.text-white{
+  color: white;
+}
+
+.btn{
+  margin: 20px;
+  padding: 10px;
+  min-width: 120px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn-primary{
+  background-color: #ff3385;
+}
+
+.btn-secondary{
+  background-color:#9DBDFF ;
+}
+/* 
+@media screen and (max-width:500px){
+
+ .btn{
+  margin: 10px;
+  min-width: 100px;
+  padding: 5px;
+ }
+
+ body {
+  padding: 5px 10px;
+}
+
+} */

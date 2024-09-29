@@ -1,0 +1,22 @@
+.home-img{
+    height: 50px;
+    position: fixed;
+    top:40px;
+    left: 40px;
+}
+
+.home-img:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:500px){
+    .home-img{
+        height: 30px;
+        width: 30px;
+       
+        top:90vh;
+      left: 85vw;
+    }
+    
+}

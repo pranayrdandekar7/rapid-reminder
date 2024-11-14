@@ -4,12 +4,17 @@ import './index.css';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Home from './views/Home/Home';
 import Add from './views/Add/Add';
+import Show from './views/Show/Show';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router=createBrowserRouter([
   {
     path:"/",
     element:<Home/>
+  },
+  {
+    path:"/show-notes",
+    element:<Show/>
   },
   {
     path:"/add",

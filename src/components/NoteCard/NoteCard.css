@@ -1,0 +1,114 @@
+.note-card{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 10px 30px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0 ,0 ,0 ,0.1);
+    position: relative;
+}
+
+.note-card-emoji{
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.note-card-title{
+ margin: 0;
+}
+
+.note-card-description{
+ margin: 5px;
+}
+
+.note-card-category{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  background-color: #d98686;
+  font-size: 14px;
+  min-width: 70px;
+  text-align: center;
+}
+
+.note-category-emoji{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.bg-shopping{
+    background-color: #ff0066;
+}
+
+.bg-work{
+ background-color: #6699ff;
+}
+
+.bg-personal{
+    background-color: #66ff99;
+}
+
+.bg-health{
+    background-color: #ff6600;
+}
+
+.bg-learning{
+    background-color: #ffd11a;
+}
+
+.note-card-delete{
+    height: 20px;
+    position: absolute;
+    bottom: 5px;
+    right: 40px;
+    cursor: pointer;
+}
+
+.note-card-delete:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width:500px){
+    .note-card{
+        margin: 10px 5px;
+        padding: 5px;
+        width:90%;
+       
+    }
+    
+    .note-card-emoji{
+        font-size: 20px;
+        margin-right: 10px;
+    }
+    
+    .note-card-title{
+    font-size: 16px;
+
+    }
+    
+    .note-card-description{
+     font-size: 14px;
+    }
+    
+    .note-card-category{
+      position: absolute;
+      top: 5px;
+      right: 5px;
+      padding: 3px 5px;
+      font-size: 12px;
+      min-width: 40px;
+    }
+    
+    .note-category-emoji{
+        font-size: 8px;
+        margin-right: 5px;
+    }
+    
+    
+}

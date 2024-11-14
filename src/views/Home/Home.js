@@ -55,7 +55,7 @@ function Home() {
                     <button className='btn text-white btn-primary add-note-butn:hover'>✍ Add Note</button>
                 </Link>
 
-                <Link to="/show">
+                <Link to="/show-notes">
                     <button className=' btn btn-secondary'>📖 Show Note</button>
                 </Link>
             </div>
